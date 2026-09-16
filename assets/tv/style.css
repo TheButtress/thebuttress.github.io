@@ -180,3 +180,7 @@ body{
     "SCAN" 0;
 }
 
+#audioPlayer {
+    width: 0;
+    height: 0;
+}

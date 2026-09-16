@@ -18,10 +18,10 @@
 				<div class="remote"></div>
 				<div class="buttoncase">
 					<div class="buttoncover"></div>
-					<a class="rbutton" id="button1" onclick="plusSlides(-1)"></a>
-					<a class="rbutton" id="button2"></a>
-					<a class="rbutton" id="button3" href="index.html"></a>
-					<a class="rbutton" id="button4" onclick="plusSlides(1)"></a>
+					<a class="rbutton" id="button1" onmousedown="plusSlides(-1)"></a>
+					<a class="rbutton" id="button2" onmousedown="clicksfx()"></a>
+					<a class="rbutton" id="button3" onmousedown="power()"></a>
+					<a class="rbutton" id="button4" onmousedown="plusSlides(1)"></a>
 				</div>
 			</div>
 		</div>
@@ -66,7 +66,7 @@
 	
 	
 	
-	
+	<audio src="./assets/tv/sounds/click.mp3" id="audioPlayer"></audio>
 	
 	</body>
 	<script src="./assets/tv/scripts.js"></script> <!-- JS management -->

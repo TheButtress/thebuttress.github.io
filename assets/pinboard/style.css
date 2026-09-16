@@ -293,3 +293,7 @@
 		border-radius: calc(var(--width) / 11);
 		pointer-events: none;
 	}
+#audioPlayer {
+    width: 0;
+    height: 0;
+}

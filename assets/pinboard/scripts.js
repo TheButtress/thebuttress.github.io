@@ -52,7 +52,8 @@ if (ScU == "vw"){
 function startup() {
 	postorganise()
 	stringangler()
-	document.getElementById('blackout').style.animationDelay = "0s"
+	document.getElementById('blackout').style.animationDelay = "0.3s"
+	lightonsfx()
 }
 let j = 0
 
@@ -164,7 +165,11 @@ function stringangler(){
 }
 
 
-
+function lightonsfx(){
+    audioPlayer.load();
+	audioPlayer.volume = 0.5;
+    audioPlayer.play();
+}
 
 
 

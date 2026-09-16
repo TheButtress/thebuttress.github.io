@@ -3,6 +3,10 @@
 		/* rotate:90deg; */
 	}
 }
+:root {
+	  --paint: drop-shadow(2px 2px 4px black);
+	}
+	
 body {
 	margin: 0;
 	overflow: hidden;
@@ -54,14 +58,45 @@ body {
     bottom: 13.28125vw;
     left: 72.526vw;
 }
-#songs {
-    background-image: url(./images/walkman.png);
+#credits {
+    background-image: url(./images/credits.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/3840)*593);
+    height: calc((100vw/3840)*213);
+    bottom: 7.29166vw;
+    left: 35.3385vw;
 }
+#songs {
+    background-image: url(./images/radio.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/5860)*779);
+    height: calc((100vw/5860)*685);
+    bottom: 5.59166vw;
+    left: 56.7385vw;
+    filter: brightness(0.6);
+}
+#paint {
+    background-image: url(./images/paint.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/1920)*116);
+    height: calc((100vw/1920)*128);
+    bottom: 1vw;
+    left: 1vw;
+    filter: opacity(0);
+	animation-delay:20s;
+    animation-name: fadein;
+    animation-duration: 40s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
 
 .navbutton {
     position: absolute;
-    filter: drop-shadow(2px 2px 4px black);
+    filter: var(--paint);
 }
 .navbutton:hover {
     filter: brightness(1.20);
@@ -70,4 +105,12 @@ body {
 @keyframes lighton{
 	0% {filter:brightness(0);}
 	100% {filter:brightness(1);}
+}
+@keyframes fadein{
+	0% {filter:opacity(0);}
+	100% {filter:opacity(1);}
+}
+#audioPlayer {
+    width: 0;
+    height: 0;
 }
