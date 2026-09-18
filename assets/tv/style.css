@@ -15,7 +15,7 @@ body{
 }
 .overlay {
     background-size: cover;
-    background-image: url(./images/overlay.png);
+    background-image: url(./images/overlay.webp);
     background-position: center;
     width: 100%;
     height: 100%;
@@ -26,7 +26,7 @@ body{
 }
 .remote {
     background-size: cover;
-    background-image: url(./images/remote.png);
+    background-image: url(./images/remote.webp);
     background-position: center;
     width: 16vw;
     height: 23vw;
@@ -39,7 +39,7 @@ body{
     filter: brightness(0.7) drop-shadow(8px 8px 8px black);
 }
 .buttoncover{
-	background-image: url(./images/buttoncover.png);
+	background-image: url(./images/buttoncover.webp);
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 100%;
@@ -67,7 +67,7 @@ body{
 }
 .remotecase {
 	background-size: cover;
-	background-image: url(./images/void.png);
+	background-image: url(./images/void.webp);
 	background-position: center;
 	width: 16vw;
 	height: 23vw;
@@ -77,7 +77,7 @@ body{
 	right: 0vw;
 }
 #button1 {
-    background-image: url(./images/button1.png);
+    background-image: url(./images/button1.webp);
 	width: 16.5%;
     height: 79.7%;
     position: absolute;
@@ -85,7 +85,7 @@ body{
     right: 72.7%;
 }
 #button2 {
-    background-image: url(./images/button2.png); 
+    background-image: url(./images/button2.webp); 
     width: 16.5%;
     height: 79.7%;
     position: absolute;
@@ -94,7 +94,7 @@ body{
     right: 51.9%;
 }
 #button3 {
-    background-image: url(./images/button3.png);
+    background-image: url(./images/button3.webp);
     width: 16.6%;
     height: 76.9%;
     position: absolute;
@@ -103,7 +103,7 @@ body{
     right: 29.8%;
 }
 #button4 {
-    background-image: url(./images/button4.png);
+    background-image: url(./images/button4.webp);
     width: 16.6%;
     height: 79.8%;
     position: absolute;

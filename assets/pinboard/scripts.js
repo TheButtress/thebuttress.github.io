@@ -13,7 +13,7 @@ let vpX = window.innerWidth;
 let vpY = window.innerHeight;
 let vpYvw = 0;
 
-const stringCnt = ["A"]
+const stringCnt = ["A","B"]
 
 var root = document.querySelector(':root');
 let photoloc = [];
@@ -106,6 +106,9 @@ function postorganise(){
 		document.getElementById("str" + i + "A").style.left = strloc[i][0] + ScU;
 		document.getElementById("str" + i + "A").style.top = strloc[i][1] + ScU;
 		document.getElementById("str" + i + "A").style.position = "fixed";
+		document.getElementById("str" + i + "B").style.left = strloc[i][0] + ScU;
+		document.getElementById("str" + i + "B").style.top = strloc[i][1] + ScU;
+		document.getElementById("str" + i + "B").style.position = "fixed";
 		
 		document.getElementById("pin" + i).style.left = pinloc[i][0] + ScU;
 		document.getElementById("pin" + i).style.top = pinloc[i][1] +ScU;
