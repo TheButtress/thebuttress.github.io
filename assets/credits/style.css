@@ -18,7 +18,7 @@ body{
 	background-color: #e8e1c9;
 }
 .returnbutton {
-		background-image: url(../global/images/back.png);
+		background-image: url(../global/images/back.webp);
 		background-size: contain;
 		background-repeat: no-repeat;
 		width: calc(11vw/3);

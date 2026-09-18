@@ -48,6 +48,9 @@ function limitcheck(pg){
 			ss[1] = 0;
 			break;		
 	};
+	if (Math.abs(pg[0]) == 1){
+		ss[1] = 0;
+	};
 	console.log(ss)
 	currentslide(ss)
 }
@@ -130,7 +133,7 @@ let slidematrix = [
 	["GlarnBoudin, Commisioned from Phoenix-Fightmaster",[["<img class='dispimg' src='./assets/drawers/images/GlarnBoudin/0.webp'</img>",""]]],
 
 
-
+	["Kapotalius",[["<img class='dispimg' src='./assets/drawers/images/Yomi art 2/0.webp'</img>",""]]],
 
 
 	["Madwick",[["<img class='dispimg' src='./assets/drawers/images/Madwick/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Madwick/1.webp'</img>",""]]],
@@ -165,7 +168,7 @@ let slidematrix = [
 
 
 
-	["Yomi, Commisioned from Kapotalius",[["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/3.webp'</img>",""]]],
+	["Yomi, Commisioned from nogame_kun",[["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/3.webp'</img>",""]]]
 
 
 
@@ -175,7 +178,7 @@ let slidematrix = [
 
 
 
-	["Yomi, Commisioned from nogame_kun",[["<img class='dispimg' src='./assets/drawers/images/Yomi art 2/0.webp'</img>",""]]]
+	
 ]
 
 
