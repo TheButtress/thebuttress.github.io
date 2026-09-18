@@ -1,53 +1,89 @@
 <html><head>
 		<title>Jax birthday conspiracy board</title>
 		<link rel="icon" type="image/svg+xml" href="./assets/global/images/icon.jpg"> <!-- Website Icon-->
-		<link href="./assets/tv/style.css" rel="stylesheet"> <!-- Style Sheet link -->
+		<link href="./assets/tapes/style.css" rel="stylesheet"> <!-- Style Sheet link -->
 		
 		<!-- Font Import for Header -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Workbench&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
 	
 	<style></style></head>
 	
-	<body>
-	<div class="screen">
-		<div class="ui">
-			<div class="overlay"></div>
-			<div class="remotecase">
-				<div class="remote"></div>
+<body>
+	<div class="main">
+		<a class="returnbutton" href="index.html"></a>
+		<div class="desk">
+			<div class="tapedeck">
+				<div class="overlay"></div>
 				<div class="buttoncase">
 					<div class="buttoncover"></div>
-					<a class="rbutton" id="button1" onclick="plusSlides(-1)"></a>
-					<a class="rbutton" id="button2"></a>
-					<a class="rbutton" id="button3" href="index.html"></a>
-					<a class="rbutton" id="button4" onclick="plusSlides(1)"></a>
+					<div class="buttoncase2">
+						<a class="rbutton" id="button1" onmousedown="audiopopup()"></a>
+						<a class="rbutton" id="button2" onmousedown="plusSlides(-1)"></a>
+						<a class="rbutton" id="button3" onmousedown="playaudio()"></a>
+						<a class="rbutton" id="button4" onmousedown="plusSlides(1)"></a>
+						<a class="rbutton" id="button5" onmousedown="pauseaudio()"></a>
+						<a class="rbutton" id="button6" onmousedown="power()"></a>
+					</div>
 				</div>
+				<div class="audiodoor"></div>
+				<div class="audioholder">
+					<div class="audioslide" id="aud1">
+						<audio preload="metadata" src="./assets/tapes/sounds/JaxJingles/Jax Banjo Theme Alert.wav"></audio>
+						<div class="audionum margarine">
+							Jax Banjo Theme Alert<br>
+							By CoffeeRun
+						</div>
+					</div>
+					
+					<div class="audioslide" id="aud2">
+						<audio preload="metadata" src="./assets/tapes/sounds/JaxJingles/Jax Beat Alert [Full].wav"></audio>
+						<div class="audionum margarine">
+							Jax Beat Alert<br>
+							By CoffeeRun
+						</div>
+					</div>
+					
+					<div class="audioslide" id="aud3">
+						<audio preload="metadata" src="./assets/tapes/sounds/JaxJingles/Jax Lesbian Tech.wav"></audio>
+						<div class="audionum margarine">
+							Jax Lesbian Tech<br>
+							By CoffeeRun
+						</div>
+					</div>
+					
+					<div class="audioslide" id="aud4">
+						<audio preload="metadata" src="./assets/tapes/sounds/mrbaconator/Jax Is Perfectly Normal.wav"></audio>
+						<div class="audionum margarine">
+							Jax Is Perfectly Normal<br>
+							By MrBaconator
+						</div>
+					</div>
+					
+					<div class="audioslide" id="aud5">
+						<audio preload="metadata" src="./assets/tapes/sounds/mrbaconator/Noirgoyle.wav"></audio>
+						<div class="audionum margarine">
+							Noirgoyle<br>
+							By MrBaconator
+						</div>
+					</div>
+					<div class="audioslide" id="aud6">
+						<audio preload="metadata" src="./assets/tapes/sounds/pumpkin/JaxBirthday.mp3"></audio>
+						<div class="audionum margarine">
+							Happy Birthday<br>
+							By Pumpkin
+						</div>
+					</div>
+					
+					<div id="tapespool">◗◖</div>
+					
+			</div>
+			</div>
+			<div class="tapes">
+				<!-- hold tapes like preview thingy-->
 			</div>
 		</div>
-		<div class="videoholder">
-			<div class="videoslide" id="vid1">
-				<iframe width="90%" height="100%" src="https://www.youtube-nocookie.com/embed/gCqcKAGNT8E?si=idem-fzLDlGUMFbe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				<div class="channelnum workbench">Ch 1/4</div>
-			
-			</div>
-			<div class="videoslide" id="vid2">
-			
-			
-				<div class="channelnum workbench">Ch 2/4</div>
-			</div>
-			<div class="videoslide" id="vid3">
-			
-			
-				<div class="channelnum workbench">Ch 3/4</div>
-			</div>
-			<div class="videoslide" id="vid4">
-			
-			
-				<div class="channelnum workbench">Ch 4/4</div>
-			</div>
-		</div>
-		
 	</div>
 	
 	
@@ -65,10 +101,9 @@
 	
 	
 	
-	
-	
+	<audio src="./assets/tapes/sounds/click.mp3" id="clickPlayer"></audio>
 	
 	</body>
-	<script src="./assets/tv/scripts.js"></script> <!-- JS management -->
+	<script src="./assets/tapes/scripts.js"></script> <!-- JS management -->
 </html>
 

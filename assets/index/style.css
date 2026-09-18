@@ -71,11 +71,10 @@ body {
     background-image: url(./images/radio.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: calc((100vw/5860)*779);
-    height: calc((100vw/5860)*685);
-    bottom: 5.59166vw;
-    left: 56.7385vw;
-    filter: brightness(0.6);
+    width: calc((100vw/12600)*1382);
+    height: calc((100vw/12600)*653);
+    bottom: 4.59166vw;
+    left: 57.7385vw;
 }
 #paint {
     background-image: url(./images/paint.png);
@@ -99,7 +98,7 @@ body {
     filter: var(--paint);
 }
 .navbutton:hover {
-    filter: brightness(1.20);
+    filter: brightness(1.20) var(--paint);
 	transform: scale(1.05);
 }
 @keyframes lighton{
