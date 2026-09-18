@@ -146,7 +146,6 @@ body{
     height: 85%;
     z-index: 5;
     position: fixed;
-    display: flex;
     justify-content: center;
     align-items: center;
     display:none;
