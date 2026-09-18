@@ -10,7 +10,7 @@ body{
 	user-select:none;
 }
 .returnbutton {
-	background-image: url(../global/images/back.png);
+	background-image: url(../global/images/back.webp);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: calc(11vw/3);
@@ -37,7 +37,7 @@ body{
 	filter: drop-shadow(4px 4px 16px black);
 }
 .overlay{
-	background-image: url(./images/tapedeck.png);
+	background-image: url(./images/tapedeck.webp);
 	background-repeat: no-repeat;
 	background-size: contain;
 	width:100%;
@@ -57,7 +57,7 @@ body{
 	pointer-events: none;
 }
 .buttoncover {
-	background-image: url(./images/buttoncover.png);
+	background-image: url(./images/buttoncover.webp);
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 100%;
@@ -79,7 +79,7 @@ body{
 
 
 .audioholder {
-	background-image: url(./images/tapecase.png);
+	background-image: url(./images/tapecase.webp);
 	background-repeat: repeat;
 	background-size: contain;
 	width: 100%;
@@ -114,7 +114,7 @@ body{
 }
 
 .audioslide {
-    background-image: url(./images/tape.png);
+    background-image: url(./images/tape.webp);
     background-repeat: repeat;
     background-size: contain;
     width: 100%;
@@ -125,7 +125,7 @@ body{
     z-index: 12;
 }
 .audiodoor {
-    background-image: url(./images/tapedoor.png);
+    background-image: url(./images/tapedoor.webp);
     background-repeat: repeat;
     background-size: contain;
     width: 100%;
@@ -137,7 +137,7 @@ body{
     pointer-events: none;
 }
 .desk{
-	background-image: url(./images/table.jpg);
+	background-image: url(./images/table.webp);
 	background-repeat: repeat;
 	width: 100%;
 	height: 100%;
@@ -145,7 +145,7 @@ body{
 	pointer-events: none;
 }
 #button1 {
-    background-image: url(./images/button1.png);
+    background-image: url(./images/button1.webp);
     background-position: top left;
     background-size: contain;
     width: 17.2016%;
@@ -155,7 +155,7 @@ body{
     left: -0.398%;
 }
 #button2 {
-    background-image: url(./images/button2.png);
+    background-image: url(./images/button2.webp);
     background-position: top left;
     background-size: contain;
     width: 17.1%;
@@ -166,7 +166,7 @@ body{
     left: 16.601%;
 }
 #button3 {
-    background-image: url(./images/button3.png);
+    background-image: url(./images/button3.webp);
     background-position: top left;
     background-size: contain;
     width: 16.799%;
@@ -177,7 +177,7 @@ body{
     left: 33.501%;
 }
 #button4 {
-    background-image: url(./images/button4.png);
+    background-image: url(./images/button4.webp);
     background-position: top left;
     background-size: contain;
     width: 17.2%;
@@ -188,7 +188,7 @@ body{
     left: 50.001%;
 }
 #button5 {
-    background-image: url(./images/button5.png);
+    background-image: url(./images/button5.webp);
     background-position: top left;
     background-size: contain;
     width: 17.3%;
@@ -199,7 +199,7 @@ body{
     left: 66.901%;
 }
 #button6 {
-    background-image: url(./images/button6.png);
+    background-image: url(./images/button6.webp);
     background-position: top left;
     background-size: contain;
     width: 16.5%;
