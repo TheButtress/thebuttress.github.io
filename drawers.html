@@ -1,73 +1,67 @@
 <html><head>
 		<title>Jax birthday conspiracy board</title>
 		<link rel="icon" type="image/svg+xml" href="./assets/global/images/icon.jpg"> <!-- Website Icon-->
-		<link href="./assets/tv/style.css" rel="stylesheet"> <!-- Style Sheet link -->
+		<link href="./assets/drawers/style.css" rel="stylesheet"> <!-- Style Sheet link -->
 		
 		<!-- Font Import for Header -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Workbench&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&family=Special+Elite&display=swap" rel="stylesheet">
 	
 	<style></style></head>
 	
 	<body>
-	<div class="screen">
-		<div class="ui">
-			<div class="overlay"></div>
-			<div class="remotecase">
-				<div class="remote"></div>
-				<div class="buttoncase">
-					<div class="buttoncover"></div>
-					<a class="rbutton" id="button1" onclick="plusSlides(-1)"></a>
-					<a class="rbutton" id="button2"></a>
-					<a class="rbutton" id="button3" href="index.html"></a>
-					<a class="rbutton" id="button4" onclick="plusSlides(1)"></a>
+	<a class="returnbutton" href="index.html"></a>
+		<div class="maincont">
+			<div class="drawers">
+				<div class="overlay"></div>
+				<div id="door" onclick="dooropen()"></div>
+				<div class="fileholder">
+					<div class="file2" onclick="currentslide([0,0])"><div class="file"></div><div class="filename special-elite">Autistic Monkee</div></div>
+					<div class="file2" onclick="currentslide([1,0])"><div class="file"></div><div class="filename special-elite">Daanooje</div></div>
+					<div class="file2" onclick="currentslide([2,0])"><div class="file"></div><div class="filename special-elite">Desi Art</div></div>
+					<div class="file2" onclick="currentslide([3,0])"><div class="file"></div><div class="filename special-elite">Devops</div></div>
+					<div class="file2" onclick="currentslide([4,0])"><div class="file"></div><div class="filename special-elite">Garghoulie Army</div></div>
+					<div class="file2" onclick="currentslide([5,0])"><div class="file"></div><div class="filename special-elite">GlarnBoudin cm(Phoenix-Fightmaster)</div></div>
+					<div class="file2" onclick="currentslide([6,0])"><div class="file"></div><div class="filename special-elite">Madwick</div></div>
+					<div class="file2" onclick="currentslide([7,0])"><div class="file"></div><div class="filename special-elite">Pure Energy</div></div>
+					<div class="file2" onclick="currentslide([8,0])"><div class="file"></div><div class="filename special-elite">Sund3w</div></div>
+					<div class="file2" onclick="currentslide([9,0])"><div class="file"></div><div class="filename special-elite">Vo1d</div></div>
+					<div class="file2" onclick="currentslide([10,0])"><div class="file"></div><div class="filename special-elite">Yomi cm(Kapotalius)</div></div>
+					<div class="file2" onclick="currentslide([11,0])"><div class="file"></div><div class="filename special-elite">Yomi cm(Nogame_Kun)</div></div>
 				</div>
 			</div>
 		</div>
-		<div class="videoholder">
-			<div class="videoslide" id="vid1">
-				<iframe width="90%" height="100%" src="https://www.youtube-nocookie.com/embed/gCqcKAGNT8E?si=idem-fzLDlGUMFbe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				<div class="channelnum workbench">Ch 1/4</div>
-			
+		<div id="slidecont">
+			<div class="undercont" onclick="hideimg()"></div>
+				
+			<div class="ui">
+				<div class="button up" onclick="limitcheck([-1,0])"></div>
+				<div class="button down" onclick="limitcheck([1,0])"></div>
+				
+				<div id="sidebuttoncont">
+					<div class="button left" onclick="limitcheck([0,-1])"></div>
+					<div class="button right" onclick="limitcheck([0,1])"></div>
+				</div>
+				
+				
 			</div>
-			<div class="videoslide" id="vid2">
-			
-			
-				<div class="channelnum workbench">Ch 2/4</div>
-			</div>
-			<div class="videoslide" id="vid3">
-			
-			
-				<div class="channelnum workbench">Ch 3/4</div>
-			</div>
-			<div class="videoslide" id="vid4">
-			
-			
-				<div class="channelnum workbench">Ch 4/4</div>
+			<div class="folder">
+				<div class="underlay"></div>
+				<div class="outerslide">
+					<div id="artistcont"class="special-elite"></div>
+					<div id="imgcont"></div>
+					<div id="captioncont"class="shantell-sans"></div>
+				</div>
 			</div>
 		</div>
 		
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
+		
+		
+		
+		<audio src="./assets/drawers/sounds/paper.mp3" class="hideaudio" id="paperPlayer"></audio>
+		<audio src="./assets/drawers/sounds/draw.mp3" class="hideaudio" id="drawPlayer"></audio>
 	</body>
 	<script src="./assets/drawers/scripts.js"></script> <!-- JS management -->
 </html>
