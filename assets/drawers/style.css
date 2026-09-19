@@ -254,6 +254,9 @@ body{
     background-color: #f3f3f3;
     padding: 0.5%;
     box-sizing: border-box;
+    text-align: center;
+    font-size: x-large;
+    align-content: center;
 }
 
 #artistcont {
