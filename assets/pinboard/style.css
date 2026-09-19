@@ -101,18 +101,19 @@
 
 	.photo {
 		position: relative;
-		left: calc(var(--width)*0.069);
-		top: calc(var(--width)*0.065);
-		background-color: #000000;
+		left: calc(var(--width)*0.06);
+		top: calc(var(--width)*0.06);
+		background-color: #ffffff;
 		background-repeat: no-repeat;
 		background-size: cover;
-		width: calc(var(--width)*0.877);
-		height: calc(var(--width)*0.898);
+		width: calc(var(--width)*0.89);
+		height: calc(var(--width)*0.91);
 		overflow: clip;
 		display: flex;
 		justify-content: center;
 	}
-	.photoinner {width: 100%;
+	.photoinner {
+	    width: 100%;
 	    object-fit: contain;
 	}
 
@@ -181,7 +182,7 @@
 		padding: 5% 10%;
 		display: flex;
 		align-items: center;
-		font-size: calc(var(--width)/11);
+		font-size: calc(var(--width)/13);
 		color: black;
 	}
 
@@ -227,10 +228,10 @@
 		z-index: 1000;
 		pointer-events: none;
 		animation-name:lightflicker;
-		animation-delay:1s;
 		animation-duration: 3s;
 		animation-fill-mode: forwards;
 		animation-timing-function: linear;
+		animation-play-state: paused;
 		top: 0;
 		left: 0;
 		pointer-events: all;
@@ -280,7 +281,7 @@
 	@keyframes yellowpaint{
 		0% {filter: opacity(0)}
 		50% {filter: opacity(0)}
-		100% {filter: opacity(0.7)}
+		100% {filter: opacity(0.6)}
 	}
 		
 	.string {

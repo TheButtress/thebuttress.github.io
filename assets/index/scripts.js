@@ -1,9 +1,14 @@
-let audioPlayer = document.getElementById('audioPlayer');
-let root = document.querySelector(':root');
+const audioPlayer = document.getElementById('audioPlayer');
+const startButton = document.getElementById('start');
+audioPlayer.load();
 
-function yellowpaint(){
-	root.style.setProperty('--paint', "sepia(1) hue-rotate(13deg) saturate(8) drop-shadow(0px 0px 20px white)");
+function audiotest(){
+	startButton.style.display = "block"
     audioPlayer.load();
-	audioPlayer.volume = 0.5;
+	//audioPlayer.volume = 0.5;
     audioPlayer.play();
 }
+Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+    console.log('images finished loading');
+	document.body.style.animationPlayState = "running";
+});
