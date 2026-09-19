@@ -21,7 +21,7 @@ body {
 	user-select:none;
 }
 .office{
-	background-image: url(./images/background.gif);
+	background-image: url(./images/background.webp);
 	background-repeat: no-repeat;
 	background-size: 100vw;
 	background-color: black;
