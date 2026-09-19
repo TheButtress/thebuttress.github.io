@@ -1,1 +1,138 @@
+@media only screen and (orientation: portrait){
+	.office{
+		/* rotate:90deg; */
+	}
+}
+:root {
+	  --paint: drop-shadow(2px 2px 4px black);
+	}
+	
+body {
+	margin: 0;
+	overflow: hidden;
+	background-color: black;
+	display: flex;
+	filter:brightness(0);
+	animation-name:lighton;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+	user-select:none;
+}
+.office{
+	background-image: url(./images/background.gif);
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	background-color: black;
+	background-position: bottom left;
+	width: 100%;
+	overflow: hidden;
+	aspect-ratio: 16/9;
+	background-attachment: fixed;
+}
+.office1{
+	position: fixed;
+	z-index:1;
+	width: 100%;
+	overflow: hidden;
+	aspect-ratio: 16/9;
+	bottom: 0;
+}
+.office2{
+	position: fixed;
+	z-index: 20;
+	width: 100%;
+	overflow: hidden;
+	aspect-ratio: 16/9;
+	pointer-events: none;
+	bottom: 0;
+}
 
+#tv {
+    background-image: url(./images/tv.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: calc((100vw/3840)*305);
+    width: calc((100vw/3840)*479);
+    bottom: 24.71355vw;
+    left: 33.047vw;
+    z-index: 2;
+}
+#pinboard {
+    background-image: url(./images/corkboard.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/3840)*727);
+    height: calc((100vw/3840)*481);
+    bottom: 28.724vw;
+    left: 63.724vw;
+    z-index: 3;
+}
+#drawers {
+    background-image: url(./images/drawers.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/3840)*826);
+    height: calc((100vw/3840)*630);
+    bottom: 13.28125vw;
+    left: 72.526vw;
+    z-index: 4;
+}
+#credits {
+    background-image: url(./images/credits.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/3840)*593);
+    height: calc((100vw/3840)*213);
+    bottom: 7.29166vw;
+    left: 35.3385vw;
+    z-index: 22;
+}
+#songs {
+    background-image: url(./images/radio.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/12600)*1382);
+    height: calc((100vw/12600)*653);
+    bottom: 4.59166vw;
+    left: 57.7385vw;
+    z-index: 21;
+}
+#paint {
+    background-image: url(./images/paint.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/1920)*116);
+    height: calc((100vw/1920)*128);
+    bottom: 1vw;
+    left: 1vw;
+    filter: opacity(0);
+    animation-delay:20s;
+    animation-name: fadein;
+    animation-duration: 40s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    z-index: 50;
+}
+
+
+.navbutton {
+    position: absolute;
+    filter: var(--paint);
+}
+.navbutton:hover {
+    filter: brightness(1.20) var(--paint);
+	transform: scale(1.05);
+}
+@keyframes lighton{
+	0% {filter:brightness(0);}
+	100% {filter:brightness(1);}
+}
+@keyframes fadein{
+	0% {filter:opacity(0);}
+	100% {filter:opacity(1);}
+}
+#audioPlayer {
+    width: 0;
+    height: 0;
+}
