@@ -95,7 +95,7 @@ function captionset(ss){
 
 
 let slidematrix = [
-	["Autistic Monkee",[["<img class='dispimg' src='./assets/drawers/images/Autistic Monkee/0.webp'</img>",""]]],
+	["Autistic Monkee",[["<img class='dispimg' src='./assets/drawers/images/AutisticMonkee/0.webp'</img>",""]]],
 
 
 
@@ -109,7 +109,7 @@ let slidematrix = [
 
 
 
-	["Desi Art",[["<img class='dispimg' src='./assets/drawers/images/Desi Art/0.webp'</img>",""]]],
+	["Desi Art",[["<img class='dispimg' src='./assets/drawers/images/DesiArt/0.webp'</img>",""]]],
 
 
 
@@ -126,10 +126,10 @@ let slidematrix = [
 
 
 
-	["Garghoulie Army",[["<img class='dispimg' src='./assets/drawers/images/gargoulie army/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/gargoulie army/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/gargoulie army/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/gargoulie army/3.webp'</img>",""]]],
+	["Garghoulie Army",[["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/3.webp'</img>",""]]],
 
 
-
+	["Gibberish03",[["<img class='dispimg' src='./assets/drawers/images/Gibberish03/0.webp'</img>",""]]],
 
 
 
@@ -137,19 +137,21 @@ let slidematrix = [
 	["GlarnBoudin, Commisioned from Phoenix-Fightmaster",[["<img class='dispimg' src='./assets/drawers/images/GlarnBoudin/0.webp'</img>",""]]],
 
 
-	["Kapotalius",[["<img class='dispimg' src='./assets/drawers/images/Yomi art 2/0.webp'</img>",""]]],
+	["Kapotalius",[["<img class='dispimg' src='./assets/drawers/images/Kapotalius/0.webp'</img>",""]]],
+	["Leucorrupt",[["<img class='dispimg' src='./assets/drawers/images/Leucorrupt/0.webp'</img>",""]]],
+	["Liv [54BPM]",[["<img class='dispimg' src='./assets/drawers/images/Liv54BPM/0.webp'</img>",""]]],
+
+
 
 
 	["Madwick",[["<img class='dispimg' src='./assets/drawers/images/Madwick/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Madwick/1.webp'</img>",""]]],
 
 
 
-
-
-
+	["MrCoffeeCobra",[["<img class='dispimg' src='./assets/drawers/images/MrCoffeeCobra/0.webp'</img>",""]]],
 	["Pure Energy",[["<img class='dispimg' src='./assets/drawers/images/Pure Energy/0.webp'</img>",""]]],
 
-
+	["Scayris",[["<img class='dispimg' src='./assets/drawers/images/Scayris/0.webp'</img>",""]]],
 
 
 
@@ -157,7 +159,7 @@ let slidematrix = [
 	["Sunde3w",[["<img class='dispimg' src='./assets/drawers/images/Sund3w/0.webp'</img>",""]]],
 
 
-
+	["Superspinch & Lopol",[["<img class='dispimg' src='./assets/drawers/images/SuperspinchLopol/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/SuperspinchLopol/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/SuperspinchLopol/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/SuperspinchLopol/3.webp'</img>",""]]],
 
 
 
@@ -172,12 +174,7 @@ let slidematrix = [
 
 
 
-	["Yomi, Commisioned from nogame_kun",[["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomi art 1/3.webp'</img>",""]]]
-
-
-
-
-
+	["Yomi, Commisioned from nogame_kun",[["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/3.webp'</img>",""]]]
 
 
 
