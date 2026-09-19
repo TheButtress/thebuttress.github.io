@@ -174,9 +174,9 @@ let slidematrix = [
 
 
 
-	["Yomi, Commisioned from nogame_kun",[["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/3.webp'</img>",""]]]
+	["Yomi, Commisioned from nogame_kun",[["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/3.webp'</img>",""]]],
 
-
+	["Sol",[["<img class='dispimg' src='./assets/drawers/images/Sol/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/3.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/4.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/5.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/6.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/7.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/8.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/9.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/10.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/11.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/12.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Sol/13.webp'</img>",""]]]
 
 
 	
