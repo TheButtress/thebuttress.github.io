@@ -1,5 +1,9 @@
 let drawdoor = document.getElementById("door")
 let doorstate = 0
+Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+    console.log('images finished loading');
+	document.body.style.animationPlayState = "running";
+});
 function dooropen(){
 	drawPlayer.load();
 	drawPlayer.volume = 0.5;

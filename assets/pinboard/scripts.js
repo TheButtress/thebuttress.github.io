@@ -1,4 +1,5 @@
 const photolist = document.getElementsByClassName("photocont")
+const audioPlayer = document.getElementById('audioPlayer');
 const photoscaleX = 11;
 const photoscaleY = (photoscaleX / 427) * 516; //13.2927
 const pinoffsetx = photoscaleX / 2.3;
@@ -12,6 +13,13 @@ const shadowmax = 0.5208338;
 let vpX = window.innerWidth;
 let vpY = window.innerHeight;
 let vpYvw = 0;
+audioPlayer.load();
+audioPlayer.volume = 0.5;
+Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+    console.log('images finished loading');
+	document.getElementById('blackout').style.animationPlayState = "running";
+    audioPlayer.play();
+});
 
 const stringCnt = ["A","B"]
 
@@ -47,13 +55,9 @@ if (ScU == "vw"){
 
 
 
-
-
 function startup() {
 	postorganise()
 	stringangler()
-	document.getElementById('blackout').style.animationDelay = "0.3s"
-	lightonsfx()
 }
 let j = 0
 
@@ -168,11 +172,7 @@ function stringangler(){
 }
 
 
-function lightonsfx(){
-    audioPlayer.load();
-	audioPlayer.volume = 0.5;
-    audioPlayer.play();
-}
+
 
 
 

@@ -2,6 +2,10 @@ let audioPlayer = document.getElementById('audioPlayer');
 let slideIndex = 1;
 let slides = document.getElementsByClassName("videoslide");
 let slidecont = []
+Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+    console.log('images finished loading');
+	document.body.style.animationPlayState = "running";
+});
 for (j = 0; j < slides.length; j++){
 	slidecont.push(slides[j].innerHTML)
 }
@@ -29,11 +33,11 @@ function showSlides(n) {
 function power(){
 	clicksfx();
 	setTimeout(leave, 700 );
-	//window.location.href = "index.html";
+	//window.location.href = "hub.html";
 }
 
 function leave(){
-	window.location.href = "index.html"
+	window.location.href = "hub.html"
 }
 
 

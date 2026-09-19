@@ -6,6 +6,7 @@ body{
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
 	animation-timing-function: linear;
+	animation-play-state: paused;
 	overflow:hidden;
 	user-select:none;
 	background-color: #0E1907;

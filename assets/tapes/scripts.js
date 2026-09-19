@@ -5,6 +5,13 @@ let tapespool = document.getElementById('tapespool');
 let slidecont = []
 let currentslide 
 let song
+
+Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+    console.log('images finished loading');
+	document.body.style.animationPlayState = "running";
+});
+
+
 for (j = 0; j < slides.length; j++){
 	slidecont.push(slides[j].innerHTML)
 }
@@ -66,11 +73,11 @@ function audiopopup(){
 function power(){
 	clicksfx();
 	setTimeout(leave, 700 );
-	//window.location.href = "index.html";
+	//window.location.href = "hub.html";
 }
 
 function leave(){
-	window.location.href = "index.html"
+	window.location.href = "hub.html"
 }
 
 function clicksfx(){
