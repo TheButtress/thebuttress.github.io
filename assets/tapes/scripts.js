@@ -70,7 +70,7 @@ function power(){
 }
 
 function leave(){
-	window.location.href = "index.html"
+	window.location.href = "hub.html"
 }
 
 function clicksfx(){
