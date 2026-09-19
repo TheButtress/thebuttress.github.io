@@ -17,6 +17,7 @@ body {
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
 	animation-timing-function: linear;
+	animation-play-state: paused;
 	user-select:none;
 }
 .office{
@@ -46,6 +47,17 @@ body {
 	aspect-ratio: 16/9;
 	pointer-events: none;
 	bottom: 0;
+}
+.office3{
+	position: fixed;
+	z-index: 2000;
+	width: 100%;
+	overflow: hidden;
+	aspect-ratio: 16/9;
+	pointer-events: none;
+	bottom: 0;
+	background-image: url(./images/confetti.gif);
+	background-size: contain;
 }
 
 #tv {
@@ -107,18 +119,40 @@ body {
     bottom: 1vw;
     left: 1vw;
     filter: opacity(0);
-    animation-delay:20s;
+    animation-delay:10s;
     animation-name: fadein;
-    animation-duration: 40s;
+    animation-duration: 20s;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
     z-index: 50;
 }
-
+#cake {
+    background-image: url(./images/cake.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/4600)*582);
+    height: calc((100vw/4600)*600);
+    bottom: -0.40834vw;
+    left: 74.7385vw;
+    z-index: 21;
+}
+#banner {
+    background-image: url(./images/banner.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/2500)*773);
+    height: calc((100vw/2500)*208);
+    top: 1vw;
+    left: calc(50vw - ((100vw/2500)*773)/2);
+    z-index: 21;
+}
 
 .navbutton {
     position: absolute;
     filter: var(--paint);
+}
+.notbutton {
+    position: absolute;
 }
 .navbutton:hover {
     filter: brightness(1.20) var(--paint);
