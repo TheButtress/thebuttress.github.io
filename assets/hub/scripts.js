@@ -1,6 +1,9 @@
 let audioPlayer = document.getElementById('audioPlayer');
 let audioPlayer2 = document.getElementById('audioPlayer2');
 let audioPlayer3 = document.getElementById('audioPlayer3');
+let audioPlayer4 = document.getElementById('audioPlayer4');
+let audioPlayer5 = document.getElementById('audioPlayer5');
+
 audioPlayer2.load();
 let root = document.querySelector(':root');
 Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
@@ -26,4 +29,9 @@ function courage(){
 	audioPlayer4.volume = 0.5;
     audioPlayer4.play();
 	}
+}
+function squeak(){
+    audioPlayer5.load();
+	audioPlayer5.volume = 0.5;
+    audioPlayer5.play();
 }
