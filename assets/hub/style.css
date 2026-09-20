@@ -146,6 +146,16 @@ body {
     left: calc(50vw - ((100vw/2500)*773)/2);
     z-index: 21;
 }
+#courage {
+    background-image: url(./images/courage.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/1920)*144);
+    height: calc((100vw/1920)*168);
+    bottom: 43.22916vw;
+    left: 89.89583vw;
+    z-index: 25;
+}
 
 .navbutton {
     position: absolute;
