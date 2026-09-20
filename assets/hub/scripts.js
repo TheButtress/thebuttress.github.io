@@ -35,21 +35,22 @@ function courage(){
 	}
 }
 function squeak(){
-	if (scount > 10){
-		audioPlayer6.load();
-	audioPlayer6.volume = 0.5;
-    audioPlayer6.play();
-	squeaker.style.display = "none";
-	}else{
-		squeaker.style.backgroundImage = "url(./assets/hub/images/squeaker1.webp)";
+	squeaker.style.backgroundImage = "url(./assets/hub/images/squeaker1.webp)";
     audioPlayer5.load();
-	audioPlayer5.volume = 0.5;
+	audioPlayer5.volume = 0.4;
     audioPlayer5.play();
 	setTimeout(unsqueak, 250)
-	}
-	scount ++
 }
 
 function unsqueak(){
-	squeaker.style.backgroundImage = "url(./assets/hub/images/squeaker.webp)";
+	if (scount > 10){
+		audioPlay5.pause()
+		audioPlayer6.load();
+		audioPlayer6.volume = 0.4;
+    	audioPlayer6.play();
+		squeaker.style.display = "none";
+	}else{
+		squeaker.style.backgroundImage = "url(./assets/hub/images/squeaker.webp)";
+	}
+	scount ++;
 }
