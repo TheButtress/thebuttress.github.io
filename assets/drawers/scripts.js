@@ -26,8 +26,8 @@ let slidecont = document.getElementById("slidecont")
 let sarrowcont = document.getElementById("sidebuttoncont")
 
 function hideimg(){
-	papernoise()
 	slidecont.style.display = "none";
+	papernoise()
 }
 
 
@@ -65,14 +65,13 @@ function limitcheck(pg){
 
 function currentslide(ss){
 	cs = ss
-	papernoise()
 	slidecont.style.display = "block";
 	//console.log(ss)
 	artistset(ss);
 	captionset(ss);
 	imageset(ss);
 	arrowcheck(ss)
-	
+	papernoise()
 }
 function arrowcheck(ss){
 	if (slidematrix[ss[0]][1].length == 1){
@@ -149,7 +148,7 @@ let slidematrix = [
 
 
 	["MrCoffeeCobra",[["<img class='dispimg' src='./assets/drawers/images/MrCoffeeCobra/0.webp'</img>",""]]],
-	["Pure Energy",[["<img class='dispimg' src='./assets/drawers/images/Pure Energy/0.webp'</img>",""]]],
+	["Pure Energy",[["<img class='dispimg' src='./assets/drawers/images/PureEnergy/0.webp'</img>",""]]],
 
 	["Scayris",[["<img class='dispimg' src='./assets/drawers/images/Scayris/0.webp'</img>",""]]],
 
@@ -189,7 +188,6 @@ let slidematrix = [
 
 
 function papernoise(){
-	paperPlayer.load();
 	paperPlayer.volume = 0.5;
     paperPlayer.play();
 }
