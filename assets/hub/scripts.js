@@ -16,7 +16,14 @@ function yellowpaint(){
     audioPlayer.play();
 }
 function courage(){
-    audioPlayer3.load();
+	rnum = Math.floor(Math.random() * 2);
+	if (rnum == 0){
+		audioPlayer3.load();
 	audioPlayer3.volume = 0.5;
     audioPlayer3.play();
+	}else{
+		audioPlayer4.load();
+	audioPlayer4.volume = 0.5;
+    audioPlayer4.play();
+	}
 }
