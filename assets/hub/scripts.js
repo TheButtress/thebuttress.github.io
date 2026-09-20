@@ -45,7 +45,7 @@ function squeak(){
     audioPlayer5.load();
 	audioPlayer5.volume = 0.5;
     audioPlayer5.play();
-	setTimeout(unsqueak, 1000)
+	setTimeout(unsqueak, 250)
 	}
 	scount ++
 }
