@@ -44,7 +44,7 @@ function squeak(){
 
 function unsqueak(){
 	if (scount > 10){
-		audioPlay5.pause()
+		audioPlayer5.pause()
 		audioPlayer6.load();
 		audioPlayer6.volume = 0.4;
     	audioPlayer6.play();
