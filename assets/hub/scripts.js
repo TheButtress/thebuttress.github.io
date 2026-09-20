@@ -39,7 +39,7 @@ function squeak(){
 		audioPlayer6.load();
 	audioPlayer6.volume = 0.5;
     audioPlayer6.play();
-	squeaker.style.display = "none'
+	squeaker.style.display = "none';
 	}else{
 		root.style.setProperty('--squeakimg', "url(./images/squeaker1.webp)");
     audioPlayer5.load();
