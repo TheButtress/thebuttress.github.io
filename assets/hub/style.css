@@ -5,6 +5,7 @@
 }
 :root {
 	  --paint: drop-shadow(2px 2px 4px black);
+	--squeekimg: url(./images/squeaker.webp);
 	}
 	
 body {
@@ -157,13 +158,13 @@ body {
     z-index: 25;
 }
 #squeak {
-    background-image: url(./images/squeaker.webp);
+    background-image: var(--squeekimg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: calc((100vw/9000)*1080);
-    height: calc((100vw/9000)*1080);
-    bottom: 6.39166vw;
-    left: 18.6385vw;
+    width: calc((100vw/11000)*1080);
+    height: calc((100vw/11000)*1080);
+    bottom: 6.49166vw;
+    left: 19.6385vw;
     z-index: 22;
 }
 .navbutton {
