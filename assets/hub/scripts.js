@@ -3,6 +3,7 @@ let audioPlayer2 = document.getElementById('audioPlayer2');
 let audioPlayer3 = document.getElementById('audioPlayer3');
 let audioPlayer4 = document.getElementById('audioPlayer4');
 let audioPlayer5 = document.getElementById('audioPlayer5');
+let squeaker = document.getElementById('squeak');
 
 audioPlayer2.load();
 let root = document.querySelector(':root');
@@ -31,7 +32,13 @@ function courage(){
 	}
 }
 function squeak(){
+	squeaker.style.backgroundImage = "url(./images/squeaker1.webp)";
     audioPlayer5.load();
 	audioPlayer5.volume = 0.5;
     audioPlayer5.play();
+	setTimeout(unsqueak, 1000)
+}
+
+function unsqueak(){
+	squeaker.style.backgroundImage = "url(./images/squeaker.webp)";
 }
