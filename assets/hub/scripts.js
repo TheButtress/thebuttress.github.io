@@ -3,6 +3,7 @@ let audioPlayer2 = document.getElementById('audioPlayer2');
 let audioPlayer3 = document.getElementById('audioPlayer3');
 let audioPlayer4 = document.getElementById('audioPlayer4');
 let audioPlayer5 = document.getElementById('audioPlayer5');
+let audioPlayer6 = document.getElementById('audioPlayer6');
 let squeaker = document.getElementById('squeak');
 scount = 0
 
