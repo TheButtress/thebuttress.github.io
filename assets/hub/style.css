@@ -160,10 +160,10 @@ body {
     background-image: url(./images/squeaker.webp);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: calc((100vw/3840)*1080);
-    height: calc((100vw/3840)*1080);
-    bottom: 8.29166vw;
-    left: 17.3385vw;
+    width: calc((100vw/9000)*1080);
+    height: calc((100vw/9000)*1080);
+    bottom: 6.39166vw;
+    left: 18.6385vw;
     z-index: 22;
 }
 .navbutton {
