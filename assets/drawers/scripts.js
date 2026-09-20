@@ -188,7 +188,6 @@ let slidematrix = [
 
 
 function papernoise(){
-	paperPlayer.load();
 	paperPlayer.volume = 0.5;
     paperPlayer.play();
 }
