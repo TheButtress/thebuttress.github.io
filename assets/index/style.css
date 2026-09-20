@@ -1,0 +1,68 @@
+.architects-daughter {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 800;
+  font-size: 3vh;
+  font-style: normal;
+  color: white;
+}
+body {
+	margin: 0;
+	overflow: hidden;
+	background-color: black;
+	display: flex;
+	filter:brightness(0);
+	animation-name:lighton;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+	animation-play-state: paused;
+	user-select:none;
+}
+
+.navbutton {
+    /* position: absolute; */
+    filter: drop-shadow(2px 2px 4px black) invert(1);
+    background-size: contain;
+    width: 5vw;
+    height: 5vw;
+    margin: 2vh;
+    cursor: pointer;
+}
+.navbutton:hover {
+    filter: brightness(1.20) var(--paint);
+	transform: scale(1.05);
+}
+.navbutton:active {
+    filter: brightness(1.20) var(--paint);
+    transform: scale(1.05);
+    translate: 0 1vw;
+}
+@keyframes lighton{
+	0% {filter:brightness(0);}
+	100% {filter:brightness(1);}
+}
+@keyframes fadein{
+	0% {filter:opacity(0);}
+	100% {filter:opacity(1);}
+}
+#audioPlayer {
+    width: 0;
+    height: 0;
+}
+#start{
+	background-image: url(../global/images/arrow.webp);
+	display:none;
+}
+#sndtst{
+	background-image: url(../global/images/audio.webp);
+}
+.tuttxt {
+    width: 60%;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 4vh;
+    align-items: center;
+}
