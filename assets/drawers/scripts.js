@@ -148,7 +148,7 @@ let slidematrix = [
 
 
 	["MrCoffeeCobra",[["<img class='dispimg' src='./assets/drawers/images/MrCoffeeCobra/0.webp'</img>",""]]],
-	["Pure Energy",[["<img class='dispimg' src='./assets/drawers/images/PureEnergy/0.webp'</img>",""]]],
+	["Pure Energy",[["<img class='dispimg' src='./assets/drawers/images/Pure Energy/0.webp'</img>",""]]],
 
 	["Scayris",[["<img class='dispimg' src='./assets/drawers/images/Scayris/0.webp'</img>",""]]],
 
@@ -188,6 +188,7 @@ let slidematrix = [
 
 
 function papernoise(){
+	paperPlayer.load();
 	paperPlayer.volume = 0.5;
     paperPlayer.play();
 }
