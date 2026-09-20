@@ -41,7 +41,7 @@ function squeak(){
     audioPlayer6.play();
 	squeaker.style.display = "none";
 	}else{
-		squeaker.style.backgroundImage = "url(./assets/hub/images/squeaker.webp)";
+		squeaker.style.backgroundImage = "url(./assets/hub/images/squeaker1.webp)";
     audioPlayer5.load();
 	audioPlayer5.volume = 0.5;
     audioPlayer5.play();
