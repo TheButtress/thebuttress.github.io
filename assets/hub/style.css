@@ -160,6 +160,7 @@ body {
 .navbutton {
     position: absolute;
     filter: var(--paint);
+	cursor: pointer;
 }
 .notbutton {
     position: absolute;

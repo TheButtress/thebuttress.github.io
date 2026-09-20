@@ -101,7 +101,7 @@ let slidematrix = [
 
 
 
-	["Danootje",[["<img class='dispimg' src='./assets/drawers/images/Daanootje/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Daanootje/1.webp'</img>",""]]],
+	["Danootje",[["<img class='dispimg' src='./assets/drawers/images/Daanootje/0.webp'</img>",""]]],
 
 
 
@@ -118,7 +118,7 @@ let slidematrix = [
 
 
 
-	["Devops",[["<img class='dispimg' src='./assets/drawers/images/Devops/0.webp'</img>",""]]],
+	["Devops",[["<img class='dispimg' src='./assets/drawers/images/Devops/0.webp'</img>","Deadlock - before the ritual"]]],
 
 
 
@@ -126,7 +126,7 @@ let slidematrix = [
 
 
 
-	["Garghoulie Army",[["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/3.webp'</img>",""]]],
+	["Garghoulie Army",[["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/0.webp'</img>","By Prox"],["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/1.webp'</img>","By Sol"],["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/2.webp'</img>","By Vo1d"],["<img class='dispimg' src='./assets/drawers/images/gargouliearmyD/3.webp'</img>","By Vulcan"]]],
 
 
 	["Gibberish03",[["<img class='dispimg' src='./assets/drawers/images/Gibberish03/0.webp'</img>",""]]],
@@ -176,7 +176,7 @@ let slidematrix = [
 
 	["Yomi, Commisioned from nogame_kun",[["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/0.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/1.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/2.webp'</img>",""],["<img class='dispimg' src='./assets/drawers/images/Yomiartartistnogamekun/3.webp'</img>",""]]],
 
-	["Sol",[["<img class='dispimg' src='./assets/drawers/images/Sol/0.webp'</img>","This project started 4 days after your debut."],["<img class='dispimg' src='./assets/drawers/images/Sol/1.webp'</img>","Final Ghoulie :D"],["<img class='dispimg' src='./assets/drawers/images/Sol/2.webp'</img>","Cement tests."],["<img class='dispimg' src='./assets/drawers/images/Sol/3.webp'</img>","The family of mould masters and print tests."],["<img class='dispimg' src='./assets/drawers/images/Sol/4.webp'</img>","He is trapped :("],["<img class='dispimg' src='./assets/drawers/images/Sol/5.webp'</img>","A lot of failed tests."],["<img class='dispimg' src='./assets/drawers/images/Sol/6.webp'</img>","Silicone pour, I had to make a foundry style pouring pot because this took 30 minutes to pour."],["<img class='dispimg' src='./assets/drawers/images/Sol/7.webp'</img>","Greased up and ready."],["<img class='dispimg' src='./assets/drawers/images/Sol/8.webp'</img>","Time for part 2."],["<img class='dispimg' src='./assets/drawers/images/Sol/9.webp'</img>","The mould."],["<img class='dispimg' src='./assets/drawers/images/Sol/10.webp'</img>","Bath time :D"],["<img class='dispimg' src='./assets/drawers/images/Sol/11.webp'</img>","He is free."],["<img class='dispimg' src='./assets/drawers/images/Sol/12.webp'</img>","Looking rough."],["<img class='dispimg' src='./assets/drawers/images/Sol/13.webp'</img>","Nice and smooth :)"]]]
+	["Sol",[["<img class='dispimg' src='./assets/drawers/images/Sol/0.webp'</img>","This project started 4 days after your debut."],["<img class='dispimg' src='./assets/drawers/images/Sol/1.webp'</img>","Final Ghoulie :D"],["<img class='dispimg' src='./assets/drawers/images/Sol/2.webp'</img>","Cement tests."],["<img class='dispimg' src='./assets/drawers/images/Sol/3.webp'</img>","The family of mould masters and print tests."],["<img class='dispimg' src='./assets/drawers/images/Sol/4.webp'</img>","He trapped."],["<img class='dispimg' src='./assets/drawers/images/Sol/5.webp'</img>","A lot of failed tests."],["<img class='dispimg' src='./assets/drawers/images/Sol/6.webp'</img>","Silicone pour, I had to make a foundry style pouring pot because this took 30 minutes to pour."],["<img class='dispimg' src='./assets/drawers/images/Sol/7.webp'</img>","Greased up and ready."],["<img class='dispimg' src='./assets/drawers/images/Sol/8.webp'</img>","Time for part 2."],["<img class='dispimg' src='./assets/drawers/images/Sol/9.webp'</img>","The mould."],["<img class='dispimg' src='./assets/drawers/images/Sol/10.webp'</img>","Bath time :D"],["<img class='dispimg' src='./assets/drawers/images/Sol/11.webp'</img>","He is free."],["<img class='dispimg' src='./assets/drawers/images/Sol/12.webp'</img>","Looking rough."],["<img class='dispimg' src='./assets/drawers/images/Sol/13.webp'</img>","Nice and smooth :)"]]]
 
 
 	
