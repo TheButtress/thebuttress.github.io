@@ -32,7 +32,7 @@ function courage(){
 	}
 }
 function squeak(){
-	squeaker.style.backgroundImage = "url(./images/squeaker1.webp)";
+	root.style.setProperty('--squeakimg', "url(./images/squeaker1.webp)");
     audioPlayer5.load();
 	audioPlayer5.volume = 0.5;
     audioPlayer5.play();
@@ -40,5 +40,5 @@ function squeak(){
 }
 
 function unsqueak(){
-	squeaker.style.backgroundImage = "url(./images/squeaker.webp)";
+	root.style.setProperty('--squeakimg', "url(./images/squeaker.webp)");
 }
