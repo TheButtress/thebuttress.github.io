@@ -162,8 +162,8 @@ body {
     background-size: 100%;
     width: calc((100vw/3840)*593);
     height: calc((100vw/3840)*213);
-    bottom: 7.29166vw;
-    left: 35.3385vw;
+    bottom: 8.29166vw;
+    left: 17.3385vw;
     z-index: 22;
 }
 
