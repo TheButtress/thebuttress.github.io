@@ -166,7 +166,16 @@ body {
     left: 17.3385vw;
     z-index: 22;
 }
-
+#squeak {
+    background-image: url(./images/squeaker1.webp)!important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/3840)*593);
+    height: calc((100vw/3840)*213);
+    bottom: 8.29166vw;
+    left: 17.3385vw;
+    z-index: 22;
+}
 .navbutton {
     position: absolute;
     filter: var(--paint);
