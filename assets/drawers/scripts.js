@@ -26,8 +26,8 @@ let slidecont = document.getElementById("slidecont")
 let sarrowcont = document.getElementById("sidebuttoncont")
 
 function hideimg(){
-	papernoise()
 	slidecont.style.display = "none";
+	papernoise()
 }
 
 
@@ -65,14 +65,13 @@ function limitcheck(pg){
 
 function currentslide(ss){
 	cs = ss
-	papernoise()
 	slidecont.style.display = "block";
 	//console.log(ss)
 	artistset(ss);
 	captionset(ss);
 	imageset(ss);
 	arrowcheck(ss)
-	
+	papernoise()
 }
 function arrowcheck(ss){
 	if (slidematrix[ss[0]][1].length == 1){
