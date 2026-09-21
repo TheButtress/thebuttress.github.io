@@ -3,10 +3,13 @@ let audioPlayer2 = document.getElementById('audioPlayer2');
 let audioPlayer3 = document.getElementById('audioPlayer3');
 let audioPlayer4 = document.getElementById('audioPlayer4');
 let audioPlayer5 = document.getElementById('audioPlayer5');
-let audioPlayer6 = document.getElementById('audioPlayer7');
+let audioPlayer6 = document.getElementById('audioPlayer6');
+let audioPlayer7 = document.getElementById('audioPlayer7');
 let squeaker = document.getElementById('squeak');
 let squeaker2 = document.getElementById('squeak2');
 scount = 0
+squeakeffect = Math.floor(Math.random() * 2);
+squeaktimer = Math.floor(Math.random() * 15) + 10;
 
 
 audioPlayer2.load();
@@ -50,13 +53,20 @@ function squeak(){
 }
 
 function unsqueak(){
-	if (scount > 10){
+	if (scount > squeaktimer){
 		audioPlayer5.pause()
-		audioPlayer6.load();
+		if (squeakeffect == 1){
+		audioPlayer7.load();
+		audioPlayer7.volume = 0.4;
+    	audioPlayer7.play();
+		squeaker.style.display = "none";
+		squeaker2.style.display = "block";
+		}else{
+			audioPlayer6.load();
 		audioPlayer6.volume = 0.4;
     	audioPlayer6.play();
 		squeaker.style.display = "none";
-		squeaker2.style.display = "block";
+		}
 	}else{
 		squeaker.style.backgroundImage = "url(./assets/hub/images/squeaker.webp)";
 	}
