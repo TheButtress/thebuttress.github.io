@@ -1,8 +1,8 @@
 body{
 	margin:0;
 	user-select:none;
-	width:100%;
-	height:100%;
+    width: 100vw;
+    height: 100vh;
 	background-color: #e8e1c9;
 	color: #2a2c21;
 	filter:brightness(0);
@@ -11,6 +11,7 @@ body{
 	animation-fill-mode: forwards;
 	animation-timing-function: linear;
 	animation-play-state: paused;
+	overflow: hidden scroll;
 }
 .newspaper{
 	width:100%;
@@ -108,7 +109,8 @@ h4 {
     margin: 0 2vw;
 }
 .mainbody {
-    height: stretch;
+	height: stretch;
+	height: -webkit-fill-available;
     column-count: 3;
     column-rule-style: solid;
     column-rule-color: #2a2c21;
@@ -122,13 +124,17 @@ hr {
     color: #2a2c21;
     border-width: 0.1em;
     border-style: solid;
+	position: relative;
+	overflow: visible;
 }
 hr.fancy:after{
 	content: "◆";
 	position: absolute;
-	display: flex;
+	/*display: flex;*/
 	font-size: 1.2em;
 	align-self: center;
 	justify-self: anchor-center;
 	font-family: 'Manufacturing Consent';
+	left: 50%;
+	translate: -50% -50%;
 }

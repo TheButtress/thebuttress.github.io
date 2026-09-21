@@ -9,6 +9,8 @@ body{
 	animation-play-state: paused;
 	overflow:hidden;
 	user-select:none;
+	width: 100vw;
+	height: 100vh;
 }
 .returnbutton {
 	background-image: url(../global/images/back.webp);
