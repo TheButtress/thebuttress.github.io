@@ -20,6 +20,8 @@ body {
 	animation-timing-function: linear;
 	animation-play-state: paused;
 	user-select:none;
+	width: 100vw;
+    height: 100vh;
 }
 .office{
 	background-image: url(./images/background.webp);
@@ -31,23 +33,27 @@ body {
 	overflow: hidden;
 	aspect-ratio: 16/9;
 	background-attachment: fixed;
+	bottom: 0;
+	position: fixed;
 }
 .office1{
 	position: fixed;
-	z-index:1;
-	width: 100%;
-	overflow: hidden;
-	aspect-ratio: 16/9;
-	bottom: 0;
+    z-index: 1;
+    width: 100vw;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    bottom: 0;
+    left: 0;
 }
 .office2{
 	position: fixed;
 	z-index: 20;
-	width: 100%;
+	width: 100vw;
 	overflow: hidden;
 	aspect-ratio: 16/9;
 	pointer-events: none;
 	bottom: 0;
+	left:0;
 }
 .office3{
 	position: fixed;
@@ -58,7 +64,7 @@ body {
 	pointer-events: none;
 	bottom: 0;
 	background-image: url(./images/confetti.gif);
-	background-size: contain;
+	background-size: cover;
 }
 
 #tv {
@@ -143,9 +149,10 @@ body {
     background-size: 100%;
     width: calc((100vw/2500)*773);
     height: calc((100vw/2500)*208);
-    top: 1vw;
     left: calc(50vw - ((100vw/2500)*773)/2);
     z-index: 21;
+    position: fixed;
+    top: 0;
 }
 #courage {
     background-image: url(./images/courage.webp);

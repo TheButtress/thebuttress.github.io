@@ -50,6 +50,7 @@ function playaudio(){
 	song.volume = 0.1;
     song.play();
 	tapespool.style.animation = "tapeplay " + songtime + "s "+ "linear "+"forwards "
+	setTimeout(animreset, (songtime*1000)+300)
 }
 
 function pauseaudio(){
@@ -57,7 +58,9 @@ function pauseaudio(){
 	tapespool.style.animationPlayState="paused"
     song.pause();
 }
-
+function animreset(){
+	tapespool.style.animation = "none"
+}
 function audiopopup(){
 	navigator.mediaDevices.getUserMedia({ audio: true })
 	.then(function(stream) {
