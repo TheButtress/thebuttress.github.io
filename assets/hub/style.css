@@ -5,6 +5,7 @@
 }
 :root {
 	  --paint: drop-shadow(2px 2px 4px black);
+	  --size: 6976;
 	}
 	
 body {
@@ -165,6 +166,19 @@ body {
     bottom: 6.49166vw;
     left: 19.6385vw;
     z-index: 22;
+}
+#squeak2 {
+    background-image: url(./images/ghoulieburn.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc((100vw/ var(--size))*1080);
+    height: calc((100vw/var(--size))*1080);
+    bottom: 6.59166vw;
+    left: 16.9385vw;
+    z-index: 22;
+	display: none;
+	pointer-events:none;
+	filter: none!important;
 }
 .navbutton {
     position: absolute;

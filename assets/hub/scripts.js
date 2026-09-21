@@ -3,8 +3,9 @@ let audioPlayer2 = document.getElementById('audioPlayer2');
 let audioPlayer3 = document.getElementById('audioPlayer3');
 let audioPlayer4 = document.getElementById('audioPlayer4');
 let audioPlayer5 = document.getElementById('audioPlayer5');
-let audioPlayer6 = document.getElementById('audioPlayer6');
+let audioPlayer6 = document.getElementById('audioPlayer7');
 let squeaker = document.getElementById('squeak');
+let squeaker2 = document.getElementById('squeak2');
 scount = 0
 
 
@@ -39,7 +40,7 @@ function squeak(){
     audioPlayer5.load();
 	audioPlayer5.volume = 0.4;
     audioPlayer5.play();
-	setTimeout(unsqueak, 250)
+	setTimeout(unsqueak, 300)
 }
 
 function unsqueak(){
@@ -49,6 +50,7 @@ function unsqueak(){
 		audioPlayer6.volume = 0.4;
     	audioPlayer6.play();
 		squeaker.style.display = "none";
+		squeaker2.style.display = "block";
 	}else{
 		squeaker.style.backgroundImage = "url(./assets/hub/images/squeaker.webp)";
 	}
