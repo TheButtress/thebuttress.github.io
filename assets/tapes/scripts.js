@@ -39,7 +39,7 @@ function showSlides(n) {
 	currentslide = slides[slideIndex-1]
 	song = currentslide.getElementsByTagName("audio")[0]
 	song.load();
-	tapespool.style.animation = ""
+	tapespool.style.animation = "none"
 }
 
 
@@ -47,19 +47,16 @@ function playaudio(){
 	songtime = song.duration
 	console.log(songtime)
 	clicksfx();
+	tapespool.style.animation = "none"
 	song.volume = 0.1;
     song.play();
 	tapespool.style.animation = "tapeplay " + songtime + "s "+ "linear "+"forwards "
-	setTimeout(animreset, (songtime*1000)+300)
 }
 
 function pauseaudio(){
 	clicksfx();
 	tapespool.style.animationPlayState="paused"
     song.pause();
-}
-function animreset(){
-	tapespool.style.animation = "none"
 }
 function audiopopup(){
 	navigator.mediaDevices.getUserMedia({ audio: true })
