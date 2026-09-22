@@ -10,6 +10,8 @@ body{
 	overflow:hidden;
 	user-select:none;
 	background-color: #0E1907;
+    	width: 100vw;
+   	 height: 100vh;
 }
 .crafty-girls-regular {
 	font-family: "Crafty Girls", cursive;
@@ -205,6 +207,8 @@ body{
     position: absolute;
     z-index: 1;
     justify-self: anchor-center;
+	left: 50%;
+	translate: -50% 0;
     top: 0;
 }
 
@@ -230,24 +234,28 @@ body{
     rotate: 0deg;
     top: 0;
     right: 50%;
+	translate: 50% 0;
 }
 
 .down {
 	rotate: 180deg;
 	bottom: 0;
 	right: 50%;
+	translate: 50% 0;
 }
 
 .left {
     rotate: -90deg;
     left: 0;
     top: 50%;
+	translate: 0 -50%;
 }
 
 .right {
 	rotate: 90deg;
     right: 0;
     top: 50%;
+	translate: 0 -50%;
 }
 
 .outerslide {
@@ -261,6 +269,8 @@ body{
     z-index: 50;
     justify-self: anchor-center;
     pointer-events: all;
+	left: 50%;
+	translate: -50% 0;
 }
 
 #imgcont {
@@ -303,7 +313,9 @@ body{
 
 .dispimg {
     height: stretch;
+	height: -webkit-fill-available;
     width: stretch;
+	width: -webkit-fill-available;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
@@ -325,4 +337,6 @@ body{
     position: absolute;
     top: 3%;
     pointer-events: none;
+	left: 50%;
+	translate: -50% 0;
 }
